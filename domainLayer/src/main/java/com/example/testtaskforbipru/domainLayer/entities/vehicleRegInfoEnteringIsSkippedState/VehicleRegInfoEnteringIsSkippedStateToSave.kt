@@ -1,0 +1,3 @@
+package com.example.testtaskforbipru.domainLayer.entities.vehicleRegInfoEnteringIsSkippedState
+
+data class VehicleRegInfoEnteringIsSkippedStateToSave(val state: Boolean)

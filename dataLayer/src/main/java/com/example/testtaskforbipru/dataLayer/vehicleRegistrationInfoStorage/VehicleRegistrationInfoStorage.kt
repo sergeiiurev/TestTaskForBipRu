@@ -1,0 +1,13 @@
+package com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage
+
+import com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage.entities.ReceivedRegistrationInfo
+import com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage.entities.RegCertificateToSave
+import com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage.entities.RegIdentifierToSave
+import com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage.entities.SavingRegCertificateInfoResult
+import com.example.testtaskforbipru.dataLayer.vehicleRegistrationInfoStorage.entities.SavingRegIdentifierInfoResult
+
+interface VehicleRegistrationInfoStorage {
+    fun getRegistrationInfo(): ReceivedRegistrationInfo
+    fun saveRegistrationInfo(param: RegCertificateToSave): SavingRegCertificateInfoResult
+    fun saveRegistrationInfo(param: RegIdentifierToSave): SavingRegIdentifierInfoResult
+}

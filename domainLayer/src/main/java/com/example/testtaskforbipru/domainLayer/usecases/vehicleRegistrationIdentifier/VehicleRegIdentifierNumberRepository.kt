@@ -1,0 +1,10 @@
+package com.example.testtaskforbipru.domainLayer.usecases.vehicleRegistrationIdentifier
+
+import com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.ReceivedRegistrationIdentifierNumber
+import com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.RegIdentifierNumberSavingResult
+import com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.RegIdentifierNumberToSave
+
+interface VehicleRegIdentifierNumberRepository {
+    fun getVehicleRegistrationIdentifierNumber(): com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.ReceivedRegistrationIdentifierNumber
+    fun saveVehicleRegistrationIdentifierNumber(param: com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.RegIdentifierNumberToSave): com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationIdentifier.RegIdentifierNumberSavingResult
+}

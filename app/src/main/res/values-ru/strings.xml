@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BipRu тестовое задание</string>
+    <string name="data_saving_error_message">При сохранении данных произошёл сбой. Попробуйте ещё раз</string>
+    <string name="skipping_input_dialog_title">Введены некорректные данные</string>
+    <string name="skipping_driving_licence_input_dialog_message">Вы уверены, что хотите пропустить ввод ВУ?</string>
+    <string name="skipping_driving_licence_input_dialog_positive_btn">Пропустить ввод ВУ</string>
+    <string name="skipping_driving_licence_input_dialog_negative_btn">Вернуться и изменить ВУ</string>
+    <string name="incorrect_format_of_input_message">Недопустимый формат данных</string>
+    <string name="input_contains_incorrect_symbols_message">Недопустимый символ</string>
+    <string name="available_for_driving_licence_input_russian_chars">АБВЕКМНОРСТУХЧ</string>
+    <string name="available_for_input_english_chars">ABEKMHOPCTYX</string>
+    <string name="driving_licence_number_is_correct">ВУ корректно</string>
+    <string name="driving_licence_number_is_incorrect">ВУ некорректно</string>
+    <string name="final_activity_identifier_value">ГРЗ: %1$s</string>
+    <string name="final_activity_certificate_value">СТС: %1$s</string>
+    <string name="final_activity_driving_licence_value">ВУ: %1$s</string>
+    <string name="available_for_certificate_input_russian_chars">АБВЕЗКМНОРСТУХ</string>
+    <string name="certificate_number_is_correct">СТС корректно</string>
+    <string name="certificate_number_is_incorrect">СТС некорректно</string>
+    <string name="skipping_certificate_input_dialog_message">Вы уверены, что хотите пропустить ввод СТС? Пропустив ввод СТС, вы потеряете и ГРЗ</string>
+    <string name="skipping_certificate_input_dialog_positive_btn">Пропустить ввод СТС и потерять ГРЗ</string>
+    <string name="skipping_certificate_input_dialog_neagtive_btn">Вернуться и изменить СТС</string>
+    <string name="available_for_identifier_input_russian_chars">АВЕКМНОРСТУХ</string>
+    <string name="identifier_number_is_correct">ГРЗ корректен</string>
+    <string name="identifier_number_is_incorrect">ГРЗ некорректен</string>
+    <string name="skipping_identifier_input_dialog_message">Вы уверены, что хотите пропустить ввод ГРЗ? Пропустив ввод ГРЗ, вы автоматически пропустите и ввод СТС</string>
+    <string name="skipping_identifier_input_dialog_positive_btn">Пропустить ввод ГРЗ и СТС</string>
+    <string name="skipping_identifier_input_dialog_negative_btn">Вернуться и изменить ГРЗ</string>
+    <string name="driving_licence_input_instructions">Формат ввода ВУ: \n 1) Вводить в одну строку \n 2) Наличие/отсутствие пробелов не важно \n 3) Вводить можно на русском или английском \n\nПримеры: \n 1) \'12 ЧУ 345678\' \n 2) \'12 34 567890\'</string>
+    <string name="driving_licence_edit_text_hint">Введите ВУ</string>
+    <string name="next_screen_btn_text">Перейти на следующий экран</string>
+    <string name="final_activity_header_tv">Результат:</string>
+    <string name="final_activity_identifier_tv_default">ГРЗ: пропущен</string>
+    <string name="final_activity_certificate_tv_default">СТС: пропущено</string>
+    <string name="final_driving_licence_tv_default">ВУ: пропущено</string>
+    <string name="certificate_input_instructions">Формат ввода СТС: \n 1) Вводить в одну строку \n 2) Наличие/отсутствие пробелов не важно \n 3) Вводить можно на русском или английском \n\nПримеры: \n 1) \'12 ЗА 345678\' \n 2) \'12 34 567890\'</string>
+    <string name="certificate_edit_text_hint">Введите СТС</string>
+    <string name="identifier_input_instructions">Формат ввода ГРЗ: \n 1) Для \'обычных\' номеров - вводить в одной строке \n 2) Для \'квадратных\' - вводить в двух строках \n 3) Наличие/отсутствие пробелов не важно \n 4) Вводить можно на русском или английском \n\nПримеры: \n Тип номера 1 - \'Y 123 AA 97\' \n Тип номера 3 - \'1234(новая строка)АА 97\'</string>
+    <string name="identifier_edit_text_hint">Введите ГРЗ</string>
+</resources>

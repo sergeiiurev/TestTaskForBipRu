@@ -1,0 +1,13 @@
+package com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage
+
+import com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage.entities.DataEnteringEndingStateToSaveInStorage
+import com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage.entities.VehicleRegInfoEnteringIsSkippedStateToSaveInStorage
+import com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage.entities.ReceivedFromStorageDataEnteringInfo
+import com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage.entities.SavingDataEnteringEndingStateResult
+import com.example.testtaskforbipru.dataLayer.dataEnteringInfoStorage.entities.SavingVehicleRegInfoEnteringIsSkippedStateResult
+
+interface DataEnteringInfoStorage {
+    fun getDataEnteringInfo(): ReceivedFromStorageDataEnteringInfo
+    fun saveDataEnteringInfo(param: DataEnteringEndingStateToSaveInStorage): SavingDataEnteringEndingStateResult
+    fun saveDataEnteringInfo(param: VehicleRegInfoEnteringIsSkippedStateToSaveInStorage): SavingVehicleRegInfoEnteringIsSkippedStateResult
+}

@@ -1,0 +1,10 @@
+package com.example.testtaskforbipru.domainLayer.usecases.vehicleRegInfoEnteringIsSkippedState
+
+import com.example.testtaskforbipru.domainLayer.entities.vehicleRegInfoEnteringIsSkippedState.VehicleRegInfoEnteringIsSkippedStateSavingResult
+import com.example.testtaskforbipru.domainLayer.entities.vehicleRegInfoEnteringIsSkippedState.VehicleRegInfoEnteringIsSkippedStateToSave
+
+class SaveVehicleRegInfoEnteringIsSkippedStateUseCase(private val repo: VehicleRegInfoEnteringIsSkippedStateRepository) {
+    fun execute(vehicleRegInfoEnteringIsSkippedState: VehicleRegInfoEnteringIsSkippedStateToSave): VehicleRegInfoEnteringIsSkippedStateSavingResult {
+        return repo.saveVehicleRegInfoIsSkippedState(state = vehicleRegInfoEnteringIsSkippedState)
+    }
+}

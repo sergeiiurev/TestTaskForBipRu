@@ -1,0 +1,10 @@
+package com.example.testtaskforbipru.domainLayer.usecases.dataEnteringEndingState
+
+import com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.DataEnteringEndingStateSavingResult
+import com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.DataEnteringEndingStateToSave
+import com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.ReceivedDataEnteringEndingState
+
+interface DataEnteringEndingStateRepository {
+    fun getDataEnteringEndingState(): com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.ReceivedDataEnteringEndingState
+    fun saveDataEnteringEndingState(state: com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.DataEnteringEndingStateToSave): com.example.testtaskforbipru.domainLayer.entities.dataEnteringEndingState.DataEnteringEndingStateSavingResult
+}

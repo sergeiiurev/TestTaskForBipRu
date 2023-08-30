@@ -1,0 +1,3 @@
+package com.example.testtaskforbipru.domainLayer.entities.vehicleRegistrationCertificate
+
+data class RegCertificateNumberToCheck(val certificateNumber: String)
